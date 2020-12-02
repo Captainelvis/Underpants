@@ -66,12 +66,37 @@ body, html{
     color: var(--light-text);
 }
 
-
+/*--------------White Rechtsbündig--------------*/
+.space2{
+    position: relative;
+    top: 2%;
+    /*width: 100%;
+    height: 42%;*/
+    width: 0;
+    height: 0;
+    border-top: 21vh solid transparent;
+    border-right:  100vw solid var(--background-light-color);
+    border-bottom: 12vh solid transparent;
+    z-index: 4;
+}
+/*--------------White Linksbündig--------------*/
+.space3{
+    position: relative;
+    top: -22%;
+    /*width: 100%;
+    height: 42%;*/
+    width: 0;
+    height: 0;
+    border-top: 12vh solid transparent;
+    border-left:  100vw solid var(--background-light-color);
+    border-bottom: 10vh solid transparent;
+    z-index: -1;
+}
 
 /*----------------------------*/
 .backgroundBox2{
     position: relative;
-    top: 5%;
+    top: -10%;
     width: 100%;
     height: 75%;
     background-color: var(--background-light-color);
